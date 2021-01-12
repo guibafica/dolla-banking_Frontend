@@ -11,22 +11,22 @@ import {
   SidebarRoute, 
 } from './styles';
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer>
-      <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
 
       <SideBarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about">Sobre</SidebarLink>
+          <SidebarLink to="about" onClick={toggle}>Sobre</SidebarLink>
 
-          <SidebarLink to="discover">Descubra</SidebarLink>
+          <SidebarLink to="discover" onClick={toggle}>Descubra</SidebarLink>
 
-          <SidebarLink to="services">Serviços</SidebarLink>
+          <SidebarLink to="services" onClick={toggle}>Serviços</SidebarLink>
 
-          <SidebarLink to="signup">Cadastro</SidebarLink>
+          <SidebarLink to="signup" onClick={toggle}>Cadastro</SidebarLink>
         </SidebarMenu>
 
         <SideBtnWrap>
