@@ -11,7 +11,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink, 
-} from './NavbarElements';
+} from './styles';
 
 const Navbar = () => {
   return (
