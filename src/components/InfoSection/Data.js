@@ -1,0 +1,15 @@
+export const homeObjOne = {
+  id: 'about',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Banco Premium',
+  headline: 'Transações ilimitadas com taxa 0',
+  description: 'Receba acesso ao nosso aplicativo exclusivo que permitirá o envio de transações ilimitadas sem cobrança de taxas',
+  buttonLabel: 'Iniciar',
+  imgStart: false,
+  alt: 'Car',
+  dark: true,
+  primary: true,
+  darkText: false,
+}
