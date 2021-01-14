@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
 
-import carImage from '../../images/svg-1.svg';
+import carImage from '../../images/svg-3.svg';
 
 import {
   InfoContainer,
@@ -28,6 +28,7 @@ const InfoSection = ({
   darkText,
   description,
   buttonLabel,
+  img,
   alt,
   primary,
   dark,
@@ -64,7 +65,7 @@ const InfoSection = ({
 
             <Column2>
               <ImgWrap>
-                <Img src={carImage} alt={alt}/>
+                <Img src={img} alt={alt}/>
               </ImgWrap>
             </Column2>
           </InfoRow>
