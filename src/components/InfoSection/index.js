@@ -1,8 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
 
-import carImage from '../../images/svg-3.svg';
-
 import {
   InfoContainer,
   InfoWrapper,
